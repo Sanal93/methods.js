@@ -1,0 +1,23 @@
+// ответ 1
+const students = [
+    {name:'Петров', grade: 4, practice: 100},
+    {name:'Иванов', grade: 4.5, practice: 120},
+    {name:'Сидоров', grade: 5, practice: 110},
+    {name:'Белкин', grade: 3, practice: 150},
+]
+
+students.forEach (function(person){
+    console.log(person)
+})
+
+// ответ 2
+const students = [
+    {name:'Петров', grade: 4, practice: 100},
+    {name:'Иванов', grade: 4.5, practice: 120},
+    {name:'Сидоров', grade: 5, practice: 110},
+    {name:'Белкин', grade: 3, practice: 150},
+]
+
+const group2 = students.slice(1);
+console.log(students)
+console.log(group2)
